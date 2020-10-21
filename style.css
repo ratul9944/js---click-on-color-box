@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+}
+
+h1, span{
+    display: inline-block;
+    font-size: 2em;
+}
+
+#selectedColor{
+    color: #fff;
+    padding: 5px;
+}
